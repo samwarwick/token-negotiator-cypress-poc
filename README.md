@@ -26,10 +26,12 @@ npm run patch
 ### On-chain tests only
 
 1. Create a `.env` file with the entry `ON_CHAIN_SECRET_WORDS` containing the pass phrase for a wallet containing at least one test NFT.
-2. Fork [token-negotiator-on-chain-poc-example](https://github.com/TokenScript/token-negotiator-on-chain-poc-example) and configure the negotiator client in `index.html` with a contract containing at leas t one owned test NFT.
+2. Fork [token-negotiator-on-chain-poc-example](https://github.com/TokenScript/token-negotiator-on-chain-poc-example) and configure the negotiator client in `index.html` with a contract containing at least one owned test NFT.
 3. Modify the on-chain-poc spec test data to match the requirements of the test NFT.
 
 ## Tests
+
+Run test specifications individually with `npm run <Script>`.
 
 
 ### Without MetaMask
