@@ -609,9 +609,7 @@ module.exports = {
     return walletAddress;
   },
   initialSetup: async ({ secretWordsOrPrivateKey, network, password }) => {
-    console.log('DEBUG: Initial setup');
     if (isInitialSetupDone) {
-      console.log('DEBUG: Initial setup already done, skipping');
       return;
     }
     isInitialSetupDone = true;

@@ -6,6 +6,7 @@ Proof-of-concept for testing [Smart Token Labs](https://smarttokenlabs.com/) [to
 
 ## Stack
 
+* Node 16.14.2
 * Cypress 9.5.3
 * [cypress-metamask-v2](https://github.com/saxenashivang/cypress-metamask-v2) 1.6.10
 * MetaMask 9.5.1
