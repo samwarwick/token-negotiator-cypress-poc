@@ -30,13 +30,13 @@ describe('On-chain POC Example', () => {
 
         cy.get('.headline-tn').contains('Get discount with Ticket');
 
-        const castleConnectButton = `button.connect-btn-tn[data-issuer*="${issuer}"]`;
-        cy.get(castleConnectButton).contains('Connect', { timeout: 10000 });
-        cy.get(castleConnectButton).click(); // Connect to collection and load available NFTs
+        const connectButton = `button.connect-btn-tn[data-issuer*="${issuer}"]`;
+        cy.get(connectButton).contains('Connect', { timeout: 10000 });
+        cy.get(connectButton).click(); // Connect to collection and load available NFTs
 
-        const castleButton = `button.tokens-btn-tn[data-issuer*="${issuer}"]`;
-        cy.get(castleButton).contains('1 token/s available', { timeout: 10000 })
-        cy.get(castleButton).click();
+        const tokenButton = `button.tokens-btn-tn[data-issuer*="${issuer}"]`;
+        cy.get(tokenButton).contains('1 token/s available', { timeout: 10000 })
+        cy.get(tokenButton).click();
         cy.get('.token-name').contains(collection);
 
         cy.get('.token-title-tn').contains(name);
