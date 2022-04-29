@@ -1,7 +1,7 @@
 # token-negotiator-cypress-poc
 Proof-of-concept for testing [Smart Token Labs](https://smarttokenlabs.com/) [token-negotiator](https://github.com/TokenScript/token-negotiator) with [Cypress](https://www.cypress.io). 
 
-**Note:** This is a minimalist technical POC to research the technical feasibility of token-negotiator user-interface testing. It has been kept deliberately simple. It is not DRY and there are no abstraction layers for test steps and element locators etc.
+**Note:** This is a minimalist POC to research the technical feasibility of token-negotiator user-interface testing. It has been kept deliberately simple. It is not DRY and there are no abstraction layers for test steps and element locators etc.
 
 
 ## Stack
