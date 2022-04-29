@@ -1,0 +1,8 @@
+{
+    "video": false,
+    "env": {
+        "NETWORK": "rinkeby",
+        "PASSWORD": "Tester@1234",
+        "SECRET_WORDS": "return patient chief example buddy burger empower shove track tone attitude finish"
+    }
+}
