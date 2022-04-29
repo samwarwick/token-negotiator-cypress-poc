@@ -10,6 +10,8 @@
     "test:active-e2e": "npm run cypress:mm -- run -s cypress/integration/hotel-active-e2e.spec.js -b chrome --headed",
     "test:issuer": "cypress run -s cypress/integration/ticket-issuer.spec.js",
     "test:issuer:chrome": "npm run test:issuer -- -b chrome --headed",
+    "test:issuer:edge": "npm run test:issuer -- -b edge --headed",
+    "test:issuer:firefox": "npm run test:issuer -- -b firefox --headed",
     "test:on-chain": "npm run cypress:mm -- run -s cypress/integration/on-chain-poc.spec.js -b chrome --headed",
     "test:passive": "cypress run -s cypress/integration/hotel-passive.spec.js",
     "test:passive-e2e": "cypress run -s cypress/integration/hotel-passive-e2e.spec.js"
